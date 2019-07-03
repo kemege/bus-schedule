@@ -1,10 +1,12 @@
-var version = 'v003::';
+var version = 'v004::';
 var cacheList = [
 			'/bus-schedule/schedule.html',
 			'/bus-schedule/js/bootstrap.min.js',
 			'/bus-schedule/js/jquery-3.4.1.min.js',
 			'/bus-schedule/css/bootstrap.min.css',
-			'/bus-schedule/css/bootstrap-theme.min.css'
+			'/bus-schedule/css/bootstrap-theme.min.css',
+			'/bus-schedule/css/schedule.css',
+			'/bus-schedule/js/schedule.js'
 			];
 self.addEventListener('install', function(event) {
 	event.waitUntil(caches.open(version + 'data').then(function (cache) {

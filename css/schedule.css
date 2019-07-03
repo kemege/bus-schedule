@@ -1,0 +1,35 @@
+.bus .type {
+	font-size: 2em;
+	/*display: inline;*/
+}
+.bus .first {
+	font-size: 2em;
+	/*display: inline;*/
+	float: right;
+	font-weight: bold;
+}
+.bus .others > span {
+	font-size: 1em;
+	margin-right: 5px;
+	float: right;
+}
+.bus-table {
+	width: 100%;
+	max-width: 320px;
+}
+.bus td {
+	padding: 2px;
+}
+.update td {
+	/*float: right;*/
+	color: #777;
+}
+caption {
+	text-align: center;
+}
+.red {
+	color: red;
+}
+tbody {
+	border: 1px solid #ddd;
+}
